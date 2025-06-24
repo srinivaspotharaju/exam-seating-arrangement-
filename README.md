@@ -108,7 +108,7 @@ Ensures no two students of the same branch are seated **adjacent** (front, back,
 
 Students can check their allotted **exam room** by entering their roll number in the Student Portal.
 
-![Student Room Lookup](https://github.com/srinivaspotharaju/EXAM-SEATING-ARRANGMENT/blob/deeea251376975678e5fc402cd2828b9acaf2565/student%20lookup.png?raw=true)
+![Student Room Lookup](https://github.com/srinivaspotharaju/exam-seating-arrangement-/blob/87b31aae185c7665e817334ba25ccc41da277bb4/student%20lookup.png)
 
 ### 🔍 Features:
 - Input field to **enter roll number**
