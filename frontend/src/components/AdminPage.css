@@ -1,0 +1,170 @@
+.admin-container {
+  width: 70%; /* Increased from 50% for wider box */
+  min-width: 300px; /* Prevent shrinking */
+  max-width: 900px; /* Cap width to match App.css */
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffebee; /* Match pink theme */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px;
+  color: #444;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px; /* Increased for better touch targets */
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.branch-inputs {
+  background-color: #fff;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+  margin-bottom: 5px;
+  color: #444;
+  font-size: 1.1rem;
+}
+
+.submit-btn,
+.generate-btn,
+.download-pdf-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.generate-btn {
+  background-color: #007BFF;
+  color: white;
+}
+
+.download-pdf-btn {
+  background-color: #ff9800; /* Orange to distinguish */
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.generate-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.download-pdf-btn:hover {
+  background-color: #e68900; /* Darker orange */
+  transform: scale(1.05);
+}
+
+.popup-message {
+  background-color: #f0f8ff;
+  border: 1px solid #007bff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+  text-align: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popup-message p {
+  margin: 0 0 10px;
+  font-size: 1rem;
+}
+
+.popup-message button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.popup-message button:hover {
+  background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+  .admin-container {
+    width: 80%; /* Adjusted for tablet */
+    padding: 15px;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  input,
+  select {
+    padding: 8px;
+  }
+  .submit-btn,
+  .generate-btn,
+  .download-pdf-btn {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .admin-container {
+    width: 90%; /* Full width on mobile */
+    padding: 10px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  input,
+  select {
+    padding: 6px;
+  }
+  .submit-btn,
+  .generate-btn,
+  .download-pdf-btn {
+    padding: 8px;
+  }
+}

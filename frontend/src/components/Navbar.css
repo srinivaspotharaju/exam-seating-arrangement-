@@ -1,0 +1,126 @@
+.navbar {
+  background: linear-gradient(90deg, #FCE4EC, #F8BBD0); /* Pink gradient */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333; /* Darker text for contrast */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 8px 8px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto; /* Reset to avoid full width */
+}
+
+.navbar-brand h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #222;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for flair */
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 4rem; /* Increased from 2rem for more space */
+}
+
+.nav-links li {
+  margin: 0;
+  position: relative;
+}
+
+.nav-links a {
+  color: #007BFF; /* Blue to match Student button */
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.2s, box-shadow 0.3s;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.nav-links a:hover {
+  color: #e50000; /* Darker blue */
+  transform: scale(1.1); /* Slight zoom */
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Glow effect */
+  background: rgba(0, 123, 255, 0.1); /* Subtle hover background */
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #f3d6ff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.menu-toggle:focus {
+  outline: 2px solid #007BFF;
+  border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .nav-links {
+    gap: 2.5rem; /* Adjusted gap for tablet */
+  }
+  .nav-links a {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, #FCE4EC, #F8BBD0); /* Match navbar */
+    padding: 1rem;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    animation: slideDown 0.3s ease-out;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
