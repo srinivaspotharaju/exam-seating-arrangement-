@@ -77,7 +77,7 @@ The Admin interface allows for dynamic configuration of seating based on branch 
 
 The seating arrangement data is stored in the `exam_seating` database under the `seating_arrangement` collection.
 
-![MongoDB Compass - Seating Arrangement](https://github.com/srinivaspotharaju/EXAM-SEATING-ARRANGMENT/blob/deeea251376975678e5fc402cd2828b9acaf2565/database.png)
+![MongoDB Compass - Seating Arrangement](https://github.com/srinivaspotharaju/exam-seating-arrangement-/blob/652967ca02b10aac9bd72ff250cdfb7a279ebcda/database.png)
 
 
 
