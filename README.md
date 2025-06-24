@@ -22,7 +22,7 @@ This project provides a platform for both **Students** and **Admins**:
 
 ## 🖥️ Screenshot
 
-![Homepage](https://github.com/srinivaspotharaju/EXAM-SEATING-ARRANGMENT/blob/deeea251376975678e5fc402cd2828b9acaf2565/homepage.png)
+![Homepage](https://github.com/srinivaspotharaju/exam-seating-arrangement-/blob/10a0747d7c65898291b6f877d5ee7ac98e2384d0/homepage.png)
 
 ## 👨‍💻 Designed By
 
