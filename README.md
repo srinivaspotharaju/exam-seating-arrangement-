@@ -56,7 +56,7 @@ This project provides a platform for both **Students** and **Admins**:
 
 The Admin interface allows for dynamic configuration of seating based on branch and room capacity. Key functionalities include:
 
-![Admin Seating Panel](https://github.com/srinivaspotharaju/EXAM-SEATING-ARRANGMENT/blob/deeea251376975678e5fc402cd2828b9acaf2565/adminpage.png)
+![Admin Seating Panel](https://github.com/srinivaspotharaju/exam-seating-arrangement-/blob/9a5d763c5ea28ba8792a160c441fd7909ba76b02/adminpage.png)
 
 ### 🔧 Features Shown:
 - **Room Selection:** Dropdown to choose a block/room (e.g., C-301).
