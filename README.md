@@ -39,7 +39,7 @@ This project provides a platform for both **Students** and **Admins**:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/exam-seating.git
+   git clone https://github.com/srinivaspotharaju/exam-seating-arrangement-
    cd exam-seating
 
 
