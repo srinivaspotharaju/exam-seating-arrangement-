@@ -87,7 +87,7 @@ The seating arrangement data is stored in the `exam_seating` database under the 
 
 The system generates a classroom-wise seating layout in a **tabular PDF format** after applying the graph coloring algorithm.
 
-![Seating Arrangement PDF](https://github.com/srinivaspotharaju/EXAM-SEATING-ARRANGMENT/blob/deeea251376975678e5fc402cd2828b9acaf2565/seating%20arrangement.png?raw=true)
+![Seating Arrangement PDF](https://github.com/srinivaspotharaju/exam-seating-arrangement-/blob/1b564538ec63d1caf9c89223f700e055bddc4d72/seating%20arrangement.png)
 
 ### 📐 Layout Specifications:
 - **Room:** C-301
